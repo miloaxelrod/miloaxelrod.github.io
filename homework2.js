@@ -5,7 +5,7 @@ var chosen = prompt("What's your favorite poodle mix?");
 
 alert("Your favorite breed is " + chosen + "? Mine is " + fave + "!")
 
-if (chosen === "Schnoodle") {
+if (chosen === "Schnoodle" || chosen === "schnoodle") {
   alert("You're a superior human who loves superior dogs! I have declared it so.");
 } else {
   alert("You'll never know the TRUE best poodle mix. You'll die a plebian.");
